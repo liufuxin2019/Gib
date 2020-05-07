@@ -1,0 +1,85 @@
+/* ---- reset ---- */
+
+body {
+  margin: 0;
+  font:normal 75% Raleway, Arial, Helvetica, sans-serif;
+}
+
+canvas {
+  display: block;
+  vertical-align: bottom;
+}
+
+/* ---- particles.js container ---- */
+
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #FFB400;
+  background-image: linear-gradient(to bottom, #FFB400, #25b7c4);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+.title {
+  font-size: 9em auto;
+  font-weight: 700;
+  color: white;
+  position: relative;
+}
+
+.subtitle {
+  font-size: 1.5vw;
+  margin-top: 1.2em;
+  font-weight: 100;
+  color: white;
+  position: relative;
+}
+
+.buttons {
+  margin: 30px;
+}
+.buttons a.button {
+  background-color: #25b7c4;
+  opacity: 80%;
+  font-weight: 700;
+  border: 1px solid white;
+  text-decoration: none;
+  padding: 15px;
+  text-transform: uppercase;
+  color: white;
+  border-radius: 26px;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+.buttons a.button:hover {
+  background-color: #DD9C00;
+  color: white;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.text-wrapper {
+  height: 100%;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
+  -webkit-box-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+          justify-content: center;
+}
+
+img{
+  max-width: 20%;
+  margin:0 auto;
+  padding: 0rem 0rem;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+
+
